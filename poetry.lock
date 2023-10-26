@@ -530,6 +530,23 @@ files = [
 ]
 
 [[package]]
+name = "es-core-news-lg"
+version = "3.7.0"
+description = "Spanish pipeline optimized for CPU. Components: tok2vec, morphologizer, parser, senter, ner, attribute_ruler, lemmatizer."
+optional = false
+python-versions = "*"
+files = [
+    {file = "es_core_news_lg-3.7.0-py3-none-any.whl", hash = "sha256:08020b83e0c6da1584e567551a5e0de7b15dc0534eaaee21acc1ce908d1be742"},
+]
+
+[package.dependencies]
+spacy = ">=3.7.0,<3.8.0"
+
+[package.source]
+type = "url"
+url = "https://github.com/explosion/spacy-models/releases/download/es_core_news_lg-3.7.0/es_core_news_lg-3.7.0-py3-none-any.whl"
+
+[[package]]
 name = "es-core-news-md"
 version = "3.7.0"
 description = "Spanish pipeline optimized for CPU. Components: tok2vec, morphologizer, parser, senter, ner, attribute_ruler, lemmatizer."
@@ -2473,4 +2490,4 @@ wasabi = ">=0.9.1,<1.2.0"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10,<3.13"
-content-hash = "71e0b245ef56c6a8bf1c1217a0f2a5bd43e3812a4a65edc531a87fefe64d71f9"
+content-hash = "6fc2ec7eb76eb4a011f376dcec1e3e281a606577b72c9aa04402c327955dbdbc"
