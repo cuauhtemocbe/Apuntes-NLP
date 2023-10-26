@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "poetry-env"
+name = "apuntes-nlp"
 version = "0.1.0"
 description = ""
 authors = ["Kuautli <cuauhtemocbe@gmail.com>"]
