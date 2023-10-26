@@ -13,6 +13,7 @@ seaborn = "^0.13.0"
 spacy = "^3.7.2"
 ipykernel = "^6.25.2"
 es_core_news_md = {url = "https://github.com/explosion/spacy-models/releases/download/es_core_news_md-3.7.0/es_core_news_md-3.7.0-py3-none-any.whl"}
+nltk = "^3.8.1"
 
 
 [build-system]
